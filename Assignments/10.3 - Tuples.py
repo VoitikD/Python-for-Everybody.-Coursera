@@ -25,3 +25,4 @@ lst.sort(reverse=True)
 for count, letter in lst :
 	print letter, count
 
+#Don't know how to isolate punctuation and  digits
