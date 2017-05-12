@@ -1,2 +1,4 @@
 # Python-for-Everybody.-Coursera
-Assignments
+LEARN
+
+Assignment + Textbook
