@@ -9,13 +9,13 @@ name = raw_input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 inp = handle.read()
+inp = inp.lower()
 
 import re
 x = re.findall('[a-z]', inp)
 
 letters = dict()
 for line in x:
-	line = line.lower()
 	words = line.rstrip()
 	for letter in words:
 		letters[letter] = letters.get(letter,0) + 1
