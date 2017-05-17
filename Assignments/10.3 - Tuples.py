@@ -8,9 +8,13 @@
 name = raw_input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
+inp = handle.read()
+
+import re
+x = re.findall('[a-z]', inp)
 
 letters = dict()
-for line in handle:
+for line in x:
 	line = line.lower()
 	words = line.rstrip()
 	for letter in words:
@@ -24,5 +28,3 @@ lst.sort(reverse=True)
 
 for count, letter in lst :
 	print letter, count
-
-#Don't know how to isolate punctuation and  digits
