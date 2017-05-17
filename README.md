@@ -1,4 +1,4 @@
-# Python-for-Everybody.-Coursera
+# Python-for-Everybody - Coursera
 LEARN
 
-Assignment + Textbook
+Assignments + Textbook
